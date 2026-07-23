@@ -1,0 +1,42 @@
+@font-face{
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand-Regular.ttf")
+}
+
+@font-face {
+    font-family: "HachiMaruPop";
+    src: url(fonts/HachiMaruPop-Regular.ttf);
+}
+
+
+
+
+.button{
+    background-color: rgb(255, 183, 195);
+    margin: 1px;
+    padding: 10px 32px;
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid;
+    color:rgb(255, 255, 255);
+}
+
+.dessert-theme{
+    font-family: "Quicksand",sans-serif;
+}
+
+.heading{
+    font-family: "HachimaruPop", sans-serif;
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(180deg, #87cfff 0%, rgb(255, 255, 255) 50%, #ff9ae2 100%);
+    min-height: 100vh;
+    position: relative;
+}
+
